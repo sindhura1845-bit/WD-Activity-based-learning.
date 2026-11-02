@@ -1,0 +1,463 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELORA | The Style Store</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="new.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement">
+        <p>✨ THE BIG STYLE SALE IS HERE — UP TO 50% OFF</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#" class="logo">VELORA<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Shop</a>
+            <a href="#offers">Offers</a>
+            <a href="#footer">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#products" aria-label="Search products">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <a href="#products" aria-label="Shopping bag">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count">0</span>
+            </a>
+            <a href="#footer" aria-label="My account">
+                <i class="fa-regular fa-user"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">YOUR STYLE. YOUR STORY.</span>
+
+                <h1>Find Your<br>
+                    <span>Everyday Magic.</span>
+                </h1>
+
+                <p>
+                    Discover the latest fashion, smart gadgets and
+                    little things that make every day extraordinary.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        Explore Collection <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#categories" class="btn btn-outline">
+                        Discover Categories
+                    </a>
+                </div>
+
+                <div class="hero-trust">
+                    <div class="trust-avatars">
+                        <span>V</span><span>E</span><span>L</span>
+                    </div>
+                    <p><strong>10,000+</strong><br>happy shoppers</p>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1100&q=85"
+                    alt="Beautiful modern fashion boutique">
+                <div class="floating-card">
+                    <span class="floating-icon">✦</span>
+                    <div>
+                        <strong>New Season</strong>
+                        <p>Fresh styles just arrived</p>
+                    </div>
+                </div>
+                <div class="hero-decoration"></div>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="benefits">
+            <div class="benefit">
+                <i class="fa-solid fa-truck-fast"></i>
+                <div>
+                    <h3>Free Delivery</h3>
+                    <p>On orders over ₹999</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <i class="fa-solid fa-rotate-left"></i>
+                <div>
+                    <h3>Easy Returns</h3>
+                    <p>7-day return policy</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <i class="fa-solid fa-shield-heart"></i>
+                <div>
+                    <h3>Secure Shopping</h3>
+                    <p>Your privacy matters</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <i class="fa-solid fa-headset"></i>
+                <div>
+                    <h3>Friendly Support</h3>
+                    <p>Here when you need us</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="section categories-section" id="categories">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">EXPLORE YOUR INTERESTS</span>
+                    <h2>Shop by <span>Category</span></h2>
+                </div>
+                <a href="#products" class="text-link">
+                    View everything <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="category-grid">
+                <a href="#fashion" class="category-card category-fashion">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80" alt="Fashion collection">
+                    <div class="category-overlay">
+                        <span>01</span>
+                        <h3>Fashion</h3>
+                        <p>Style that speaks</p>
+                    </div>
+                </a>
+
+                <a href="#electronics" class="category-card category-electronics">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" alt="Headphones and electronics">
+                    <div class="category-overlay">
+                        <span>02</span>
+                        <h3>Electronics</h3>
+                        <p>Smart choices</p>
+                    </div>
+                </a>
+
+                <a href="#beauty" class="category-card category-beauty">
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80" alt="Beauty and skincare products">
+                    <div class="category-overlay">
+                        <span>03</span>
+                        <h3>Beauty</h3>
+                        <p>Glow your way</p>
+                    </div>
+                </a>
+
+                <a href="#accessories" class="category-card category-accessories">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Elegant wristwatch">
+                    <div class="category-overlay">
+                        <span>04</span>
+                        <h3>Accessories</h3>
+                        <p>Details that matter</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Promotional Banner -->
+        <section class="sale-banner" id="offers">
+            <div class="sale-content">
+                <span class="sale-label">A LITTLE SOMETHING SPECIAL</span>
+                <h2>Good Finds.<br>Even Better Prices.</h2>
+                <p>Refresh your favourites without stretching your budget.</p>
+                <a href="#products" class="btn btn-light">
+                    Shop the Sale <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="sale-art">
+                <span class="sale-circle">UP TO<br><strong>50%</strong><br>OFF</span>
+                <span class="sparkle sparkle-one">✦</span>
+                <span class="sparkle sparkle-two">✧</span>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="section products-section" id="products">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">HANDPICKED FOR YOU</span>
+                    <h2>Our <span>Best Picks</span></h2>
+                    <p class="section-description">
+                        Lovely finds, great value and styles worth keeping.
+                    </p>
+                </div>
+                <a href="#products" class="text-link">
+                    Explore all <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="filter-pills">
+                <a href="#products" class="filter active">All Products</a>
+                <a href="#fashion" class="filter">Fashion</a>
+                <a href="#electronics" class="filter">Electronics</a>
+                <a href="#beauty" class="filter">Beauty</a>
+                <a href="#accessories" class="filter">Accessories</a>
+            </div>
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+                <article class="product-card" id="fashion">
+                    <div class="product-image">
+                        <span class="discount-badge">-25%</span>
+                        <span class="product-tag">BESTSELLER</span>
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=85" alt="Red casual sneakers">
+                        <a href="#footer" class="wishlist" aria-label="Add sneakers to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">FASHION</p>
+                        <h3>Everyday Sneakers</h3>
+                        <p class="product-description">Comfortable steps with a bold, modern look.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(128)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹1,499 <del>₹1,999</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card" id="electronics">
+                    <div class="product-image">
+                        <span class="discount-badge">-30%</span>
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85" alt="Premium wireless headphones">
+                        <a href="#footer" class="wishlist" aria-label="Add headphones to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">ELECTRONICS</p>
+                        <h3>Studio Headphones</h3>
+                        <p class="product-description">Immerse yourself in rich, detailed sound.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(96)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹2,799 <del>₹3,999</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card" id="beauty">
+                    <div class="product-image">
+                        <span class="discount-badge">-20%</span>
+                        <span class="product-tag">TRENDING</span>
+                        <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=85" alt="Skincare and beauty products">
+                        <a href="#footer" class="wishlist" aria-label="Add skincare to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">BEAUTY</p>
+                        <h3>Daily Glow Skincare</h3>
+                        <p class="product-description">A simple routine for a fresh, radiant look.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(84)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹799 <del>₹999</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card" id="accessories">
+                    <div class="product-image">
+                        <span class="discount-badge">-15%</span>
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85" alt="Minimal wristwatch">
+                        <a href="#footer" class="wishlist" aria-label="Add watch to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">ACCESSORIES</p>
+                        <h3>Minimal Classic Watch</h3>
+                        <p class="product-description">Timeless design for every occasion.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(72)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹1,699 <del>₹1,999</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+                <!-- Product 5 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="discount-badge">-20%</span>
+                        <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=85" alt="Stylish handbag">
+                        <a href="#footer" class="wishlist" aria-label="Add handbag to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">FASHION</p>
+                        <h3>Everyday Tote Bag</h3>
+                        <p class="product-description">Roomy, versatile and ready for every day.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(105)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹1,199 <del>₹1,499</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+                <!-- Product 6 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="discount-badge">-25%</span>
+                        <span class="product-tag">POPULAR</span>
+                        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=85" alt="Vintage-style camera">
+                        <a href="#footer" class="wishlist" aria-label="Add camera to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">ELECTRONICS</p>
+                        <h3>Instant Photo Camera</h3>
+                        <p class="product-description">Keep your favourite memories close.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(63)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹5,999 <del>₹7,999</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+                <!-- Product 7 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="discount-badge">-18%</span>
+                        <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=85" alt="Elegant perfume bottle">
+                        <a href="#footer" class="wishlist" aria-label="Add perfume to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">BEAUTY</p>
+                        <h3>Signature Fragrance</h3>
+                        <p class="product-description">A memorable scent for special moments.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(91)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹1,149 <del>₹1,399</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+                <!-- Product 8 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="discount-badge">-22%</span>
+                        <img src="https://images.unsplash.com/photo-1506629905607-d9d3b2d0f4d7?auto=format&fit=crop&w=700&q=85" alt="Modern sunglasses">
+                        <a href="#footer" class="wishlist" aria-label="Add sunglasses to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">ACCESSORIES</p>
+                        <h3>Classic Sunglasses</h3>
+                        <p class="product-description">A polished finishing touch to your look.</p>
+                        <div class="rating"><span>★★★★★</span> <small>(57)</small></div>
+                        <div class="price-row">
+                            <div class="price">₹699 <del>₹899</del></div>
+                        </div>
+                        <a href="#footer" class="add-cart">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-icon"><i class="fa-regular fa-envelope"></i></div>
+            <div class="newsletter-text">
+                <span class="eyebrow">THE VELORA LETTER</span>
+                <h2>A little style in your inbox.</h2>
+                <p>Get updates on new arrivals, special deals and more.</p>
+            </div>
+            <form class="newsletter-form" action="#">
+                <label class="visually-hidden" for="email">Your email address</label>
+                <input type="email" id="email" placeholder="Enter your email address">
+                <button type="submit">Join Us <i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="#home" class="logo">VELORA<span>.</span></a>
+                <p>Thoughtful finds for your everyday life.
+                   Discover more of what you love.</p>
+                <div class="social-links">
+                    <a href="#footer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#footer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#footer" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#products">Best Picks</a>
+                <a href="#offers">Special Offers</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Customer Care</h3>
+                <a href="#footer">Help Centre</a>
+                <a href="#footer">Shipping Information</a>
+                <a href="#footer">Returns & Exchanges</a>
+                <a href="#footer">Privacy Policy</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Get in Touch</h3>
+                <p><i class="fa-regular fa-envelope"></i> hello@velora.example</p>
+                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fa-solid fa-location-dot"></i> India</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 VELORA. All rights reserved.</p>
+            <p>Made with <span>♥</span> for your style.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
